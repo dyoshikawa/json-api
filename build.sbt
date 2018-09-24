@@ -19,7 +19,8 @@ libraryDependencies ++= Seq(
   "com.typesafe.slick" %% "slick" % "3.2.0",
   "com.h2database" % "h2" % "1.4.196",
   "com.mchange" % "c3p0" % "0.9.5.2",
-  "com.typesafe" % "config" % "1.3.1"
+  "com.typesafe" % "config" % "1.3.1",
+  "org.scalatra" %% "scalatra-auth" % "2.6.3"
 )
 
 enablePlugins(SbtTwirl)
