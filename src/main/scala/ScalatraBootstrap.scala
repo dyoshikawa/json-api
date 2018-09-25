@@ -1,6 +1,6 @@
 import com.mchange.v2.c3p0.ComboPooledDataSource
 import javax.servlet.ServletContext
-import net.dyosh.kakeibo._
+import net.dyosh.jason._
 import org.scalatra._
 import org.slf4j.LoggerFactory
 import slick.jdbc.H2Profile.api._
@@ -14,6 +14,6 @@ class ScalatraBootstrap extends LifeCycle {
 
   override def init(context: ServletContext) {
     val db = Database.forDataSource(cpds, None)
-    context.mount(new HouseholdAccountsServlet(db), "/*")
+    context.mount(new JasonServlet(db), "/*")
   }
 }

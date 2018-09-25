@@ -1,9 +1,9 @@
-package net.dyosh.kakeibo
+package net.dyosh.jason
 
 import org.scalatra._
 import slick.jdbc.H2Profile.api._
 
-class HouseholdAccountsServlet(val db: Database) extends ScalatraServlet with FutureSupport with SlickRoutes {
+class JasonServlet(val db: Database) extends ScalatraServlet with FutureSupport with SlickRoutes {
 
   protected implicit def executor = scala.concurrent.ExecutionContext.Implicits.global
 

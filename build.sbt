@@ -2,7 +2,7 @@ val ScalatraVersion = "2.6.3"
 
 organization := "net.dyosh"
 
-name := "Household Accounts"
+name := "Jason"
 
 version := "0.1.0-SNAPSHOT"
 
