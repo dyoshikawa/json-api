@@ -3,7 +3,7 @@
 ## Build & Run ##
 
 ```sh
-$ cd household-accounts
+$ cd json
 $ sbt
 > jetty:start
 > browse
